@@ -1,6 +1,7 @@
 #!/bin/bash
+CONTENT="source <(curl -s https://raw.githubusercontent.com/nryan100/dotfiles/refs/heads/main/rc-appends)"
 su root
-cat rc-appends >> /root/.bashrc
+echo $CONTENT >> /root/.bashrc
 exit
-cat rc-appends >> $HOME/.bashrc
+echo $CONTENT >> $HOME/.bashrc
 source $HOME/.bashrc
