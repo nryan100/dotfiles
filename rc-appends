@@ -1,0 +1,4 @@
+PS1='\[\e[1m\]\A\[\e[0m\] \[\e[2m\]$?\[\e[0m\] \[\e[1m\][\u\[\e[0m\] \[\e[1m\]\w]\$\[\e[0m\] '
+alias cp="cp -v"
+alias mv="mv -v"
+alias rm="rm -v"
